@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Lora">
+    <meta charset="UTF-8" />
+    <meta name="description" content="Bob's kitchen Kiosk">
+    <meta name="keywords" content="burger, french fries, pepsi, coke, hot coffee, iced capp">
+    <meta name="author" content="Bhuvaneshwari Sivasangaran">
+    <meta name="viewport" content="width=device-width" />
+    <title>Bob's kitchen Kiosk - Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Coded by Bhuvaneshwari Sivasangaran-->
+    <!-- image link -->
+    <!-- 
+        https://pixabay.com/photos/appetite-beef-big-bread-bun-1238457/
+        https://pixabay.com/photos/appetite-beef-big-bread-bun-1238459/
+        https://pixabay.com/photos/bread-brown-bun-calories-close-up-1238385/
+        https://pixabay.com/photos/abstract-barbeque-bbq-beauty-beef-1238262/
+        https://pixabay.com/photos/hamburger-burger-fast-food-2201748/
+        https://pixabay.com/photos/chicken-nuggets-poultry-flesh-food-1351329/
+        https://pixabay.com/photos/batter-breast-calories-chicken-1239025/
+        https://pixabay.com/photos/food-eat-diet-fried-chicken-leg-2202358/
+        https://pixabay.com/photos/chicken-fried-food-667935/
+        https://pixabay.com/photos/food-meal-meat-dinner-eat-fried-2879417/
+        https://pixabay.com/photos/french-fries-food-fries-plate-1351062/
+        https://pixabay.com/photos/cup-of-coffee-coffee-break-coffee-455423/
+        https://pixabay.com/photos/cappuccino-iced-coffee-coffee-fresh-2716388/
+        https://pixabay.com/photos/drink-soda-glasses-can-beverage-462776/
+        https://pixabay.com/photos/teacup-cup-of-tea-tea-drink-hot-2324842/
+        https://pixabay.com/photos/ice-cream-milk-ice-cream-waffle-2367072/
+        https://pixabay.com/photos/ice-cream-blackberries-milk-sugar-2305159/
+        https://pixabay.com/photos/ice-cream-dessert-food-snack-1274894/
+        https://pixabay.com/photos/ice-cream-cones-scooper-5928048/
+        https://pixabay.com/photos/ice-cream-cone-strawberry-ice-cream-926426/
+        https://pixabay.com/photos/cappuccino-drink-cup-coffee-756490/
+     -->
+</head>
+
+<body>
+
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-6"><a href="menu.html"><img src="images/logo1.png" alt="Bob's Kitchen logo"></a></div>
+            <div class="col-1">
+                <form action="cart.html"><button class="btn btn-primary mr-4"><span id="cart">Cart </span><i
+                            class="fa fa-shopping-cart" aria-hidden="true"></i></button></form>
+            </div>
+            <div class="col-1">
+                <form action="help.html"><button class="btn btn-primary">Help <i class="fa fa-question"
+                            aria-hidden="true"></i></button></form>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </header>
+
+    <main>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Burgers</a></li>
+                <li><a href="#tabs-2">Sides</a></li>
+                <li><a href="#tabs-3">Beverages</a></li>
+                <li><a href="#tabs-4">Ice Creams</a></li>
+            </ul>
+            <div id="tabs-1">
+                <div class="row mt-4">
+                    <div class="col-1"></div>
+                    <div class="col-10 row">
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/appetite-1238457_640.jpg"
+                                    alt="single's beef burger">
+                                <div class="card-body">
+                                    <h4 class="card-title">Single's Beef Burger</h4>
+                                    <h5>CAD $<span>9.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/appetite-1238459_640.jpg"
+                                    alt="crave's beef burger">
+                                <div class="card-body">
+                                    <h4 class="card-title">Crave's Beef Burger</h4>
+                                    <h5>CAD $<span>12.99<span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/bread-1238385_640.jpg" alt="hamburger">
+                                <div class="card-body">
+                                    <h4 class="card-title">Hamburger</h4>
+                                    <h5>CAD $<span>8.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/abstract-1238262_640.jpg" alt="bbq Beef Burger">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bbq Beef Burger</h4>
+                                    <h5>CAD $<span>11.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/hamburger-2201748_640.jpg" alt="meaty burger">
+                                <div class="card-body">
+                                    <h4 class="card-title">Meaty Burger</h4>
+                                    <h5>CAD $<span>10.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/sandwich-7847723_640.png" alt="fish burger">
+                                <div class="card-body">
+                                    <h4 class="card-title">Fish Burger</h4>
+                                    <h5>CAD $<span>9.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <div id="tabs-2">
+                <div class="row mt-4">
+                    <div class="col-1"></div>
+                    <div class="col-10 row">
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/chicken-nuggets-1351329_640.jpg"
+                                    alt="nuggets - 12pc">
+                                <div class="card-body">
+                                    <h4 class="card-title">Nuggets (12pc)</h4>
+                                    <h5>CAD $<span>9.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/chicken-nuggets-1351329_640.jpg"
+                                    alt="nuggets - 24px">
+                                <div class="card-body">
+                                    <h4 class="card-title">Nuggets (24pc)</h4>
+                                    <h5>CAD $<span>17.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/batter-1239025_640.jpg" alt="fried breast - 6pc">
+                                <div class="card-body">
+                                    <h4 class="card-title">fried breast (6pc)</h4>
+                                    <h5>CAD $<span>11.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/food-2202358_640.jpg" alt="drumstick - 2pc">
+                                <div class="card-body">
+                                    <h4 class="card-title">Drumstick (2pc)</h4>
+                                    <h5>CAD $<span>7.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/chicken-667935_640.jpg"
+                                    alt="honey chicken - 10pc">
+                                <div class="card-body">
+                                    <h4 class="card-title">Honey Chicken (10pc)</h4>
+                                    <h5>CAD $<span>15.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/food-2879417_640.jpg" alt="grill chicken - whole">
+                                <div class="card-body">
+                                    <h4 class="card-title">Grill Chicken (whole)</h4>
+                                    <h5>CAD $<span>25.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/french-fries-1351062_640.jpg" alt="french fries">
+                                <div class="card-body">
+                                    <h4 class="card-title">French Fries (Large - 1 lb)</h4>
+                                    <h5>CAD $<span>5.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <div id="tabs-3">
+                <div class="row mt-4">
+                    <div class="col-1"></div>
+                    <div class="col-10 row">
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/cup-of-coffee-455423_640.jpg" alt="coffee">
+                                <div class="card-body">
+                                    <h4 class="card-title">Coffee</h4>
+                                    <h5>CAD $<span>2.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/cappuccino-2716388_640.jpg" alt="cappuccino">
+                                <div class="card-body">
+                                    <h4 class="card-title">Cappuccino</h4>
+                                    <h5>CAD $<span>3.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/drink-462776_640.jpg" alt="coke">
+                                <div class="card-body">
+                                    <h4 class="card-title">Coke</h4>
+                                    <h5>CAD $<span>2.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/teacup-2324842_640.jpg" alt="hot tea">
+                                <div class="card-body">
+                                    <h4 class="card-title">Hot Tea</h4>
+                                    <h5>CAD $<span>1.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/cappuccino-756490_640.jpg" alt="latte">
+                                <div class="card-body">
+                                    <h4 class="card-title">Latte</h4>
+                                    <h5>CAD $<span>2.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <div id="tabs-4">
+                <div class="row mt-4">
+                    <div class="col-1"></div>
+                    <div class="col-10 row">
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/ice-cream-2367072_640.jpg"
+                                    alt="Chocolate ice cream">
+                                <div class="card-body">
+                                    <h4 class="card-title">Chocolate flavour</h4>
+                                    <h5>CAD $<span>3.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/ice-cream-1274894_640.jpg"
+                                    alt="vanilla ice cream">
+                                <div class="card-body">
+                                    <h4 class="card-title">Vanilla flavour</h4>
+                                    <h5>CAD $<span>3.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/ice-cream-5928048_640.jpg"
+                                    alt="pistachio ice cream">
+                                <div class="card-body">
+                                    <h4 class="card-title">Pistachio Flavour</h4>
+                                    <h5>CAD $<span>3.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="images/ice-cream-926426_640.jpg"
+                                    alt="strawberry ice cream">
+                                <div class="card-body">
+                                    <h4 class="card-title">Strawberry Flavour</h4>
+                                    <h5>CAD $<span>3.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/ice-cream-2305159_640.jpg" alt="blueberry sundae">
+                                <div class="card-body">
+                                    <h4 class="card-title">Blueberry Sundae</h4>
+                                    <h5>CAD $<span>5.99</span></h5>
+                                    <button class="btn btn-primary addToCard">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="http://code.jquery.com/ui/1.13.2/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="menu.js"></script>
+
+</body>
+
+</html>

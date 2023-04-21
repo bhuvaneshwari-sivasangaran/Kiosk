@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    position: absolute;
+    margin-top: 100px;
+}
+
+.mainContainer {
+    background-image: url("../images/hamburger-1238246_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 20%;
+    right: 24%;
+    left: 24%;
+    text-align: center;
+    color: #000;
+    background-color: #3d251e;
+    opacity: 0.9;
+    padding: 3% 0 5% 0;
+    border-radius: 10px;
+}
+
+.title, .subtitle {
+    font-family: Poppins;
+    font-size: 48px;
+    color: #fd8532;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+.LoginForm {
+    margin: 0 25%;
+}
+
+input {
+    border: 3px solid #fd8532 !important;
+    border-radius: 30px !important;
+    padding: 6px 24px !important;
+}
+
+.btn-primary {
+    background-color: #fd8532 !important;
+    border-radius: 30px !important;
+    border-color: #fd8532 !important;
+    font-weight: bold;
+    color: #3d251e;
+}
+
+.btn-primary:hover {
+    background-color: #fd8532;
+    border-color: #fd8532;
+}
+
+.errMsg {
+    color: #fd8532;
+    float: right;
+    margin: 5px 10px 10px 0;
+}
+
+#startButton {
+    clear: both;
+}
+
+header {
+    z-index: 300;
+    position: fixed;
+    height: 100px;
+    background-color: #3d251e;
+}
+
+header img {
+    height: 100px;
+}
+
+header button {
+    margin-top: 25px;
+    padding: 12px !important;
+}
+
+#tabs .card-body {
+    text-align: center;
+}
+
+#tabs .card-body h5 {
+    font-weight: bold;
+    color: #fd8532;
+    padding-bottom: 10px;
+}
+
+#tabs .card-img-top {
+    height: 210px;
+}
+
+.cartItem img {
+    height: 100px;
+}
+
+.cartItem {
+    font-size: 22px;
+    padding: 16px;
+}
+
+#buttonRow {
+    text-align: center;
+}
+
+#tabs .card {
+    width: 18rem;
+    border-color: #fd8532;
+}
+
+.cartItemName {
+    color: #fd8532;
+}
+
+.ui-tabs {
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+.ui-widget-header {
+    background-color: #fd8532 !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #3d251e !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+    color: #fd8532 !important;
+    font-family: Poppins;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #fd8532 !important;
+}
+
+.ui-state-default a {
+    color: #3d251e !important;
+}
+
+#added_items_to_cart{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.divLeft {
+    text-align: end;
+}
+
+.divRight {
+    text-align: start;
+}
+
+.totalRow {
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+.totalRow .col-6 .col-6 {
+    padding: 4px 12px;
+}
+
+.cartTitle {
+    color: #3d251e;
+}
+
+.card-title, h3 {
+    padding: 8px;
+    font-family: Poppins;
+    color: #3d251e;
+}
+
+.payButton {
+    display: block;
+    width: 50%;
+    margin: 0 25%;
+    font-size: 24px;
+}
+
+#totalCost, #totalTax {
+    text-transform: none;
+}
+
+#emptyCart {
+    text-align: center;
+    color: #fd8532;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.cartTotalCard {
+    margin: 16px 20%;
+    text-align: center;
+    padding: 16px;
+    border-top: 2px dashed #3d251e;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    color: #3d251e !important;
+}
+
+.ui-state-active, .ui-state-hover, .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited , .ui-state-hover a {
+    color: #fd8532 !important;
+}
+
+h3{
+    color: #fd8532;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bx-wrapper {
+    margin: auto;
+    text-align: center;
+    margin-top: 24px;
+}
+
+
